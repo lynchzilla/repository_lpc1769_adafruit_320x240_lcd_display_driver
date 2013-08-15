@@ -318,15 +318,15 @@ evaluation board.
    	#define LCD_PORT2	2
    	#define LCD_PORT3	3
    	#define LCD_PORT4	4
-		#define LCD_MASK	1
-		#define LCD_UNMASK	0
-		#define LCD_INPUT	0
-		#define LCD_OUTPUT	1
-		#define LCD_CS		21
-		#define LCD_CD		22
-		#define LCD_WR		23
-		#define LCD_RD		24
-		#define LCD_RST		25
+	#define LCD_MASK	1
+	#define LCD_UNMASK	0
+	#define LCD_INPUT	0
+	#define LCD_OUTPUT	1
+	#define LCD_CS		21
+	#define LCD_CD		22
+	#define LCD_WR		23
+	#define LCD_RD		24
+	#define LCD_RST		25
 
 	 from lpc_types.h, we have the following useful #define macros:
 		#define _BIT(n)	(1<<n)
