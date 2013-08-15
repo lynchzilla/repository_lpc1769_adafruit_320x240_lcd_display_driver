@@ -313,7 +313,7 @@ evaluation board.
    ================================================
 
    from lcddriver.h, we have these useful #define macros:
-   	#define LCD_PORT0	0
+        #define LCD_PORT0	0
    	#define LCD_PORT1	1
    	#define LCD_PORT2	2
    	#define LCD_PORT3	3
@@ -328,15 +328,15 @@ evaluation board.
 	#define LCD_RD		24
 	#define LCD_RST		25
 
-	 from lpc_types.h, we have the following useful #define macros:
-		#define _BIT(n)	(1<<n)
-		#define _SBF(f,v) (v<<f)
+   from lpc_types.h, we have the following useful #define macros:
+	#define _BIT(n)	(1<<n)
+	#define _SBF(f,v) (v<<f)
 
 
-	  #include "lpc_types.h"
-	  #include "lcddriver.h"
-	  #include "lpc17xx_gpio.h"
-	  #include "lpc17xx_clkpwr.h"
+	#include "lpc_types.h"
+	#include "lcddriver.h"
+	#include "lpc17xx_gpio.h"
+	#include "lpc17xx_clkpwr.h"
 
     uint32_t	LastStatePort0;
 
